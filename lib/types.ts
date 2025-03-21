@@ -6,7 +6,7 @@ type ExecutionResultBase = {
 }
 
 export type ExecutionResultInterpreter = ExecutionResultBase & {
-  template: 'code-interpreter-v1'
+  template: 'python-code-interpreter'
   stdout: string[]
   stderr: string[]
   runtimeError?: ExecutionError
@@ -14,7 +14,7 @@ export type ExecutionResultInterpreter = ExecutionResultBase & {
 }
 
 export type ExecutionResultWeb = ExecutionResultBase & {
-  template: Exclude<TemplateId, 'code-interpreter-v1'>
+  template: Exclude<TemplateId, 'python-code-interpreter'>
   url: string
 }
 

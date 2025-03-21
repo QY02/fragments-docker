@@ -224,6 +224,19 @@
       "multiModal": false
     },
     {
+      "id": "qwen2.5:1.5b",
+      "provider": "Ollama",
+      "providerId": "ollama",
+      "name": "Qwen2.5-1.5b",
+      "multiModal": false
+    },    {
+      "id": "qwen2.5:7b",
+      "provider": "Ollama",
+      "providerId": "ollama",
+      "name": "Qwen2.5-7b",
+      "multiModal": false
+    },
+    {
       "id": "mistral-nemo",
       "provider": "Ollama",
       "providerId": "ollama",
